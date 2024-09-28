@@ -51,3 +51,21 @@ body, html {
   justify-content: center;
   overflow: hidden; /* Previene que el texto se desborde */
 }
+
+/* Aseguramos que la card tenga una altura fija */
+.card {
+  height: 100%;
+}
+
+/* Aseguramos que la imagen ocupe el espacio adecuado */
+.fixed-img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover; /* Asegura que la imagen se ajuste al tamaño sin distorsionarse */
+}
+
+/* Clase para asegurar que el contenedor tenga un scroll vertical y una altura máxima del 80% de la ventana */
+.scrollable-container {
+  max-height: 80vh;
+  overflow-y: scroll;
+}

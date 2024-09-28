@@ -29,7 +29,7 @@ export const ApiCoffeeCarruselBasic = () => {
 
   }, []); // El array vacío significa que useEffect se ejecuta solo una vez cuando el componente se monta
 
-  console.log(coffeeList); // Mostramos en consola la lista de cafés para depuración
+
 
   // Retornamos el JSX que representa el carrusel
   return (
